@@ -5,3 +5,4 @@ global class InventorySyncBatchScheduler implements Schedulable {
         Database.executeBatch(job, 50); // Batch size: 50
     }
 }
+
